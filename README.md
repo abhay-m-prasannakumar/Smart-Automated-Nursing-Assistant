@@ -8,7 +8,7 @@ Push Button
 3.7V Battery
 Buzzer
 Plastic storage rack
-The code to be uploaded in ESP32 is provided in file minicode.ino ,assemble the components as shown in the circuit diagram and upload the codeto ESP32 then run the program.To operate the request giving functionality ,here we have used Blynk IOT software.Here is the breakdown of how to create the template in blynk console and the way to connect and control it. The image of the created blynk console is also provided.
+The code to be uploaded in ESP32 is provided in file minicode.ino ,assemble the components as shown in the circuit diagram and upload the codeto ESP32 then run the program.The navigation of trolley is controlled by A* algorithm.To operate the request giving functionality ,here we have used Blynk IOT software.Here is the breakdown of how to create the template in blynk console and the way to connect and control it. The image of the created blynk console is also provided.
 
  **Prerequisites:**
 1. Create a Blynk account at [https://blynk.cloud](https://blynk.cloud)
@@ -52,3 +52,4 @@ If you also want to control it from the Blynk app:
 3. Add **Steppers/Sliders** and link them to V1, V2, and V3.
 
 ---
+On setting the harware and software parts of the project, provide the power supply and when ESP32 turns on it gets connected to the provided wifi and the blynk device also gets online.Then you can perform  routine task on pressing push button and provide single or multiple requests via blynk and the trolley moves accordingly. You can adjust the time upto which the trolley should take requests and you can add and change room locations as per your choice.  
