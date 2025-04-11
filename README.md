@@ -1,4 +1,5 @@
 Smart Automated Nursing Assistant is seamless innovative project which reduces the worload of nurses and improves the effieciency of hospital management.
+The detailed report with all requirements ,working and details is attached.Read the working before running the program
 Harware components includes:
 ESP32 Devkit
 L298N Motor Driver
